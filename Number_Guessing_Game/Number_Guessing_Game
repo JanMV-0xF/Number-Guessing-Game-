@@ -1,0 +1,7 @@
+- I want the user to guess a number from {START} to {FINISH} randomly
+- use the random library
+- keep looping until user gets the correct answer
+- track the # of attempts of the user before getting the correct answer and print it to the user
+- problem: # of attempts continues to the next match and counts the previous match
+- proposed solution:
+    - count the # of attempts in current match then after the user gets the correct answer, print # of attempts. if user wants another match, reset everything and load a new game
